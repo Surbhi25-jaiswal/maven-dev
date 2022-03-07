@@ -1,4 +1,4 @@
 FROM openjdk:11
 EXPOSE 8080
-ADD target/maven-dev.jar mavem dev.jar
+ADD target/maven-dev.jar maven dev.jar
 ENTRYPOINT ["JavaExample","-jar","/maven-dev.jar]
